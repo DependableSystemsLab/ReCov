@@ -1,0 +1,1 @@
+opt -load ~/llvm-2.9-build/lib/CountQsDistance.so -S -bishe_insert input-llfi_index.ll -o null.ll -select_set_file="./qsIndex.txt"

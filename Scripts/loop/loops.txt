@@ -1,0 +1,784 @@
+Printing analysis 'Natural Loop Information' for function 'Estimate_GCell_Population':
+Loop at depth 1 containing: %bb5.preheader.i<header>,%bb6.i<latch><exiting>,%bb5.bb6_crit_edge.i,%bb4.i,%bb3.bb4_crit_edge.i,%bb2.i,%bb3.preheader.i,%bb3.preheader.lr.ph.i
+    Loop at depth 2 containing: %bb3.preheader.i<header>,%bb4.i<latch><exiting>,%bb3.bb4_crit_edge.i,%bb2.i
+        Loop at depth 3 containing: %bb2.i<header><latch><exiting>
+Loop at depth 1 containing: %bb<header><latch><exiting>
+Loop at depth 1 containing: %bb10.preheader<header>,%bb11<latch><exiting>,%bb9,%bb5,%bb5.lr.ph,%bb8.preheader,%bb8.preheader.lr.ph
+    Loop at depth 2 containing: %bb8.preheader<header>,%bb9<latch><exiting>,%bb5,%bb5.lr.ph
+        Loop at depth 3 containing: %bb5<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Allocate_Space_for_Grid':
+Loop at depth 1 containing: %bb<header>,%bb9<latch><exiting>,%bb7,%bb1,%bb1.lr.ph,%bb5,%bb2,%bb3
+    Loop at depth 2 containing: %bb1<header>,%bb7<latch><exiting>,%bb5,%bb2,%bb3
+        Loop at depth 3 containing: %bb2<header>,%bb5<latch><exiting>,%bb3
+            Loop at depth 4 containing: %bb3<header><latch><exiting>
+Loop at depth 1 containing: %bb17.preheader<header>,%bb18<latch><exiting>,%bb17.bb18_crit_edge,%bb16,%bb15.bb16_crit_edge,%bb14,%bb15.preheader,%bb15.preheader.lr.ph
+    Loop at depth 2 containing: %bb15.preheader<header>,%bb16<latch><exiting>,%bb15.bb16_crit_edge,%bb14
+        Loop at depth 3 containing: %bb14<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Deallocate_Grid_Space':
+Loop at depth 1 containing: %bb5.preheader<header>,%bb6<latch><exiting>,%bb4,%bb2,%bb3.preheader
+    Loop at depth 2 containing: %bb3.preheader<header>,%bb4<latch><exiting>,%bb2
+        Loop at depth 3 containing: %bb2<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Shift':
+Loop at depth 1 containing: %bb4<header><latch><exiting>
+Loop at depth 1 containing: %bb7<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Find_Closest_Point':
+Loop at depth 1 containing: %bb<header>,%bb13<latch><exiting>,%bb1,%bb5,%bb4,%bb2,%bb7,%bb6,%bb8,%bb11,%bb10,%bb12
+Printing analysis 'Natural Loop Information' for function 'Find_Neighbor_GridCells':
+Loop at depth 1 containing: %bb16.preheader<header>,%bb17<latch><exiting>,%bb16.bb17_crit_edge,%bb15,%bb14.bb15_crit_edge,%Reset_Marks.exit,%bb13,%bb2,%bb14.preheader,%bb14.preheader.lr.ph,%bb11,%Shift.exit,%bb8.preheader.i,%bb5.preheader.i,%bb5.preheader.i.lr.ph,%bb11.bb5.preheader.i_crit_edge,%bb4.i,%bb4.lr.ph.i,%bb7.i,%bb7.lr.ph.i,%bb10.bb11_crit_edge,%bb9,%Shift.exit25,%bb8.preheader.i15,%bb5.preheader.i5,%bb5.preheader.i5.lr.ph,%bb9.bb5.preheader.i5_crit_edge,%bb4.i13,%bb4.lr.ph.i8,%bb7.i23,%bb7.lr.ph.i18,%bb8.bb9_crit_edge,%bb7,%Shift.exit47,%bb8.preheader.i37,%bb5.preheader.i27,%bb5.preheader.i27.lr.ph,%bb7.bb5.preheader.i27_crit_edge,%bb4.i35,%bb4.lr.ph.i30,%bb7.i45,%bb7.lr.ph.i40,%bb6,%bb.i,%bb.lr.ph.i
+    Loop at depth 2 containing: %bb14.preheader<header>,%bb15<latch><exiting>,%bb14.bb15_crit_edge,%Reset_Marks.exit,%bb13,%bb2,%bb11,%Shift.exit,%bb8.preheader.i,%bb5.preheader.i,%bb5.preheader.i.lr.ph,%bb11.bb5.preheader.i_crit_edge,%bb4.i,%bb4.lr.ph.i,%bb7.i,%bb7.lr.ph.i,%bb10.bb11_crit_edge,%bb9,%Shift.exit25,%bb8.preheader.i15,%bb5.preheader.i5,%bb5.preheader.i5.lr.ph,%bb9.bb5.preheader.i5_crit_edge,%bb4.i13,%bb4.lr.ph.i8,%bb7.i23,%bb7.lr.ph.i18,%bb8.bb9_crit_edge,%bb7,%Shift.exit47,%bb8.preheader.i37,%bb5.preheader.i27,%bb5.preheader.i27.lr.ph,%bb7.bb5.preheader.i27_crit_edge,%bb4.i35,%bb4.lr.ph.i30,%bb7.i45,%bb7.lr.ph.i40,%bb6,%bb.i,%bb.lr.ph.i
+        Loop at depth 3 containing: %bb2<header>,%Reset_Marks.exit<latch><exiting>,%bb13,%bb11,%Shift.exit,%bb8.preheader.i,%bb5.preheader.i,%bb5.preheader.i.lr.ph,%bb11.bb5.preheader.i_crit_edge,%bb4.i,%bb4.lr.ph.i,%bb7.i,%bb7.lr.ph.i,%bb10.bb11_crit_edge,%bb9,%Shift.exit25,%bb8.preheader.i15,%bb5.preheader.i5,%bb5.preheader.i5.lr.ph,%bb9.bb5.preheader.i5_crit_edge,%bb4.i13,%bb4.lr.ph.i8,%bb7.i23,%bb7.lr.ph.i18,%bb8.bb9_crit_edge,%bb7,%Shift.exit47,%bb8.preheader.i37,%bb5.preheader.i27,%bb5.preheader.i27.lr.ph,%bb7.bb5.preheader.i27_crit_edge,%bb4.i35,%bb4.lr.ph.i30,%bb7.i45,%bb7.lr.ph.i40,%bb6,%bb.i,%bb.lr.ph.i
+            Loop at depth 4 containing: %bb5.preheader.i<header>,%bb11.bb5.preheader.i_crit_edge<latch>,%bb11<exiting>,%Shift.exit,%bb8.preheader.i,%bb4.i,%bb4.lr.ph.i,%bb7.i,%bb7.lr.ph.i,%bb10.bb11_crit_edge,%bb9,%Shift.exit25,%bb8.preheader.i15,%bb5.preheader.i5,%bb5.preheader.i5.lr.ph,%bb9.bb5.preheader.i5_crit_edge,%bb4.i13,%bb4.lr.ph.i8,%bb7.i23,%bb7.lr.ph.i18,%bb8.bb9_crit_edge,%bb7,%Shift.exit47,%bb8.preheader.i37,%bb5.preheader.i27,%bb5.preheader.i27.lr.ph,%bb7.bb5.preheader.i27_crit_edge,%bb4.i35,%bb4.lr.ph.i30,%bb7.i45,%bb7.lr.ph.i40,%bb6
+                Loop at depth 5 containing: %bb4.i<header><latch><exiting>
+                Loop at depth 5 containing: %bb7.i<header><latch><exiting>
+                Loop at depth 5 containing: %bb5.preheader.i5<header>,%bb9.bb5.preheader.i5_crit_edge<latch>,%bb9<exiting>,%Shift.exit25,%bb8.preheader.i15,%bb4.i13,%bb4.lr.ph.i8,%bb7.i23,%bb7.lr.ph.i18,%bb8.bb9_crit_edge,%bb7,%Shift.exit47,%bb8.preheader.i37,%bb5.preheader.i27,%bb5.preheader.i27.lr.ph,%bb7.bb5.preheader.i27_crit_edge,%bb4.i35,%bb4.lr.ph.i30,%bb7.i45,%bb7.lr.ph.i40,%bb6
+                    Loop at depth 6 containing: %bb4.i13<header><latch><exiting>
+                    Loop at depth 6 containing: %bb7.i23<header><latch><exiting>
+                    Loop at depth 6 containing: %bb5.preheader.i27<header>,%bb7.bb5.preheader.i27_crit_edge<latch>,%bb7<exiting>,%Shift.exit47,%bb8.preheader.i37,%bb4.i35,%bb4.lr.ph.i30,%bb7.i45,%bb7.lr.ph.i40,%bb6
+                        Loop at depth 7 containing: %bb4.i35<header><latch><exiting>
+                        Loop at depth 7 containing: %bb7.i45<header><latch><exiting>
+            Loop at depth 4 containing: %bb.i<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Setup_Grid':
+Printing analysis 'Natural Loop Information' for function 'Update_Grid':
+Loop at depth 1 containing: %bb16.preheader<header>,%bb17<latch><exiting>,%bb16.bb17_crit_edge,%bb15,%bb14.bb15_crit_edge,%bb13,%bb10,%bb14.preheader,%bb12.bb13_crit_edge,%bb11
+    Loop at depth 2 containing: %bb14.preheader<header>,%bb15<latch><exiting>,%bb14.bb15_crit_edge,%bb13,%bb10,%bb12.bb13_crit_edge,%bb11
+        Loop at depth 3 containing: %bb10<header>,%bb13<latch><exiting>,%bb12.bb13_crit_edge,%bb11
+            Loop at depth 4 containing: %bb11<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Bin_Atoms':
+Loop at depth 1 containing: %bb5.preheader.i<header>,%bb6.i<latch><exiting>,%bb5.bb6_crit_edge.i,%bb4.i,%bb3.bb4_crit_edge.i,%bb2.i,%bb3.preheader.i,%bb3.preheader.lr.ph.i
+    Loop at depth 2 containing: %bb3.preheader.i<header>,%bb4.i<latch><exiting>,%bb3.bb4_crit_edge.i,%bb2.i
+        Loop at depth 3 containing: %bb2.i<header><latch><exiting>
+Loop at depth 1 containing: %bb<header><latch><exiting>
+Loop at depth 1 containing: %bb10.preheader<header>,%bb11<latch><exiting>,%bb9,%bb5,%bb5.lr.ph,%bb8.preheader,%bb8.preheader.lr.ph
+    Loop at depth 2 containing: %bb8.preheader<header>,%bb9<latch><exiting>,%bb5,%bb5.lr.ph
+        Loop at depth 3 containing: %bb5<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'reax_atom_Copy':
+Printing analysis 'Natural Loop Information' for function 'Copy_Storage':
+Loop at depth 1 containing: %bb<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Free_Storage':
+Loop at depth 1 containing: %bb<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Assign_New_Storage':
+Printing analysis 'Natural Loop Information' for function 'Cluster_Atoms':
+Loop at depth 1 containing: %bb3<header><latch><exiting>
+Loop at depth 1 containing: %bb14.preheader<header>,%bb15<latch><exiting>,%bb14.bb15_crit_edge,%bb13,%bb12.bb13_crit_edge,%bb11,%bb8,%bb12.preheader,%bb12.preheader.lr.ph,%bb10.bb11_crit_edge,%bb9,%bb9.lr.ph
+    Loop at depth 2 containing: %bb12.preheader<header>,%bb13<latch><exiting>,%bb12.bb13_crit_edge,%bb11,%bb8,%bb10.bb11_crit_edge,%bb9,%bb9.lr.ph
+        Loop at depth 3 containing: %bb8<header>,%bb11<latch><exiting>,%bb10.bb11_crit_edge,%bb9,%bb9.lr.ph
+            Loop at depth 4 containing: %bb9<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Make_List':
+Printing analysis 'Natural Loop Information' for function 'Delete_List':
+Printing analysis 'Natural Loop Information' for function 'Num_Entries':
+Printing analysis 'Natural Loop Information' for function 'Start_Index':
+Printing analysis 'Natural Loop Information' for function 'End_Index':
+Printing analysis 'Natural Loop Information' for function 'Set_Start_Index':
+Printing analysis 'Natural Loop Information' for function 'Set_End_Index':
+Printing analysis 'Natural Loop Information' for function 'Make_Lookup_Table':
+Loop at depth 1 containing: %bb<header><exiting>,%bb.bb_crit_edge<latch>
+Printing analysis 'Natural Loop Information' for function 'Tridiagonal_Solve':
+Loop at depth 1 containing: %bb<header><latch><exiting>
+Loop at depth 1 containing: %bb3<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Natural_Cubic_Spline':
+Loop at depth 1 containing: %bb<header><latch><exiting>
+Loop at depth 1 containing: %bb3<header><latch><exiting>
+Loop at depth 1 containing: %bb9<header><latch><exiting>
+Loop at depth 1 containing: %bb12<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Complete_Cubic_Spline':
+Loop at depth 1 containing: %bb<header><latch><exiting>
+Loop at depth 1 containing: %bb3<header><latch><exiting>
+Loop at depth 1 containing: %bb9<header><latch><exiting>
+Loop at depth 1 containing: %bb12<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'LR_Lookup':
+Printing analysis 'Natural Loop Information' for function 'Make_LR_Lookup_Table':
+Loop at depth 1 containing: %bb<header><exiting>,%bb.bb_crit_edge<latch>
+Loop at depth 1 containing: %bb6<header><latch><exiting>
+Loop at depth 1 containing: %bb9<header>,%bb22<latch><exiting>,%bb20,%bb11,%bb19,%bb12,%bb17,%bb13,%bb13.lr.ph,%bb15,%bb16
+    Loop at depth 2 containing: %bb11<header>,%bb20<latch><exiting>,%bb19,%bb12,%bb17,%bb13,%bb13.lr.ph,%bb15,%bb16
+        Loop at depth 3 containing: %bb13<header>,%bb17<latch><exiting>,%bb15,%bb16
+Printing analysis 'Natural Loop Information' for function 'Lookup_Index_Of':
+Printing analysis 'Natural Loop Information' for function 'Lookup':
+Printing analysis 'Natural Loop Information' for function 'Get_Element':
+Printing analysis 'Natural Loop Information' for function 'Get_Atom_Name':
+Printing analysis 'Natural Loop Information' for function 'Print_Near_Neighbors':
+Loop at depth 1 containing: %bb<header>,%bb5<latch><exiting>,%bb4.bb5_crit_edge,%bb3,%bb3.lr.ph,%bb3.bb3_crit_edge
+    Loop at depth 2 containing: %bb3<header><exiting>,%bb3.bb3_crit_edge<latch>
+Printing analysis 'Natural Loop Information' for function 'Print_Near_Neighbors2':
+Loop at depth 1 containing: %bb<header>,%bb5<latch><exiting>,%bb3,%bb3.lr.ph
+    Loop at depth 2 containing: %bb3<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Print_Far_Neighbors':
+Loop at depth 1 containing: %bb<header>,%bb5<latch><exiting>,%bb4.bb5_crit_edge,%bb3,%bb3.lr.ph,%bb3.bb3_crit_edge
+    Loop at depth 2 containing: %bb3<header><exiting>,%bb3.bb3_crit_edge<latch>
+Printing analysis 'Natural Loop Information' for function 'fn_qsort_intcmp':
+Printing analysis 'Natural Loop Information' for function 'Print_Far_Neighbors2':
+Loop at depth 1 containing: %bb<header>,%bb9<latch><exiting>,%bb5.thread,%bb5,%bb3,%bb3.lr.ph,%bb7,%bb7.lr.ph
+    Loop at depth 2 containing: %bb3<header><latch><exiting>
+    Loop at depth 2 containing: %bb7<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Print_Total_Force':
+Loop at depth 1 containing: %bb<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Output_Results':
+Loop at depth 1 containing: %bb<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Print_Linear_System':
+Loop at depth 1 containing: %bb<header><latch><exiting>
+Loop at depth 1 containing: %bb7<header>,%bb10<latch><exiting>,%bb8,%bb8.lr.ph
+    Loop at depth 2 containing: %bb8<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Print_Charges':
+Loop at depth 1 containing: %bb<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Print_Soln':
+Loop at depth 1 containing: %bb<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Print_Sparse_Matrix':
+Loop at depth 1 containing: %bb<header>,%bb3<latch><exiting>,%bb1,%bb1.lr.ph
+    Loop at depth 2 containing: %bb1<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Print_Sparse_Matrix2':
+Loop at depth 1 containing: %bb<header>,%bb4.loopexit<latch><exiting>,%bb2.bb4.loopexit_crit_edge,%bb1,%bb1.lr.ph
+    Loop at depth 2 containing: %bb1<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Print_Bonds':
+Loop at depth 1 containing: %bb<header>,%bb3<latch><exiting>,%bb2.bb3_crit_edge,%bb1,%bb1.lr.ph
+    Loop at depth 2 containing: %bb1<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Print_Bond_List2':
+Loop at depth 1 containing: %bb<header>,%bb9<latch><exiting>,%bb5.thread,%bb5,%bb3,%bb1,%bb1.lr.ph,%bb2,%bb7,%bb7.lr.ph
+    Loop at depth 2 containing: %bb1<header>,%bb3<latch><exiting>,%bb2
+    Loop at depth 2 containing: %bb7<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Reset_Atoms':
+Loop at depth 1 containing: %bb<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Reset_Pressures':
+Printing analysis 'Natural Loop Information' for function 'Reset_Simulation_Data':
+Printing analysis 'Natural Loop Information' for function 'Reset_Workspace':
+Printing analysis 'Natural Loop Information' for function 'Reset_Neighbor_Lists':
+Loop at depth 1 containing: %bb<header><latch><exiting>
+Loop at depth 1 containing: %bb4<header>,%bb6<latch><exiting>,%bb5
+Printing analysis 'Natural Loop Information' for function 'Reset':
+Loop at depth 1 containing: %bb.i<header><latch><exiting>
+Loop at depth 1 containing: %bb.i2<header><latch><exiting>
+Loop at depth 1 containing: %bb4.i<header>,%bb6.i<latch><exiting>,%bb5.i
+Printing analysis 'Natural Loop Information' for function 'Reset_Grid':
+Loop at depth 1 containing: %bb5.preheader<header>,%bb6<latch><exiting>,%bb5.bb6_crit_edge,%bb4,%bb3.bb4_crit_edge,%bb2,%bb3.preheader,%bb3.preheader.lr.ph
+    Loop at depth 2 containing: %bb3.preheader<header>,%bb4<latch><exiting>,%bb3.bb4_crit_edge,%bb2
+        Loop at depth 3 containing: %bb2<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Reset_Marks':
+Loop at depth 1 containing: %bb<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Write_Binary_Restart':
+Loop at depth 1 containing: %bb<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Read_Binary_Restart':
+Loop at depth 1 containing: %bb<header><exiting>,%bb.bb_crit_edge<latch>
+Loop at depth 1 containing: %bb4<header><exiting>,%bb4.bb4_crit_edge<latch>
+Loop at depth 1 containing: %bb7<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Write_ASCII_Restart':
+Loop at depth 1 containing: %bb<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Read_ASCII_Restart':
+Loop at depth 1 containing: %bb<header><exiting>,%bb.bb_crit_edge<latch>
+Loop at depth 1 containing: %bb3<header><exiting>,%bb3.bb3_crit_edge<latch>
+Loop at depth 1 containing: %bb6<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Write_Restart':
+Printing analysis 'Natural Loop Information' for function 'Random':
+Printing analysis 'Natural Loop Information' for function 'Randomize':
+Printing analysis 'Natural Loop Information' for function 'GRandom':
+Loop at depth 1 containing: %bb<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Write_Custom_Header':
+Loop at depth 1 containing: %bb30<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Append_Custom_Frame':
+Loop at depth 1 containing: %bb11<header>,%bb17<latch><exiting>,%bb15,%bb12,%bb12.lr.ph,%bb13,%bb14
+    Loop at depth 2 containing: %bb12<header>,%bb15<latch><exiting>,%bb13,%bb14
+Loop at depth 1 containing: %bb24<header>,%bb34<latch><exiting>,%bb32,%bb25,%bb25.lr.ph,%bb26,%bb30,%bb27,%bb27.lr.ph,%bb28,%bb29
+    Loop at depth 2 containing: %bb25<header>,%bb32<latch><exiting>,%bb26,%bb30,%bb27,%bb27.lr.ph,%bb28,%bb29
+        Loop at depth 3 containing: %bb27<header>,%bb30<latch><exiting>,%bb28,%bb29
+Loop at depth 1 containing: %bb88<header>,%bb98<latch><exiting>,%bb97.bb98_crit_edge,%bb96,%bb89,%bb89.lr.ph,%bb96.bb89_crit_edge,%bb90,%bb95.bb96.loopexit_crit_edge,%bb94,%bb91,%bb91.lr.ph,%bb94.bb91_crit_edge,%bb92,%bb93
+    Loop at depth 2 containing: %bb89<header>,%bb96.bb89_crit_edge<latch>,%bb96<exiting>,%bb90,%bb95.bb96.loopexit_crit_edge,%bb94,%bb91,%bb91.lr.ph,%bb94.bb91_crit_edge,%bb92,%bb93
+        Loop at depth 3 containing: %bb91<header>,%bb94.bb91_crit_edge<latch>,%bb94<exiting>,%bb92,%bb93
+Loop at depth 1 containing: %bb67<header>,%bb73<latch><exiting>,%bb72.bb73_crit_edge,%bb71,%bb68,%bb68.lr.ph,%bb71.bb68_crit_edge,%bb69,%bb70
+    Loop at depth 2 containing: %bb68<header>,%bb71.bb68_crit_edge<latch>,%bb71<exiting>,%bb69,%bb70
+Loop at depth 1 containing: %bb78<header>,%bb84<latch><exiting>,%bb83.bb84_crit_edge,%bb82,%bb79,%bb79.lr.ph,%bb82.bb79_crit_edge,%bb80,%bb81
+    Loop at depth 2 containing: %bb79<header>,%bb82.bb79_crit_edge<latch>,%bb82<exiting>,%bb80,%bb81
+Loop at depth 1 containing: %bb49<header><latch><exiting>
+Loop at depth 1 containing: %bb53<header><latch><exiting>
+Loop at depth 1 containing: %bb57<header><latch><exiting>
+Loop at depth 1 containing: %bb61<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Read_Traj':
+Loop at depth 1 containing: %bb9<header><exiting>,%bb8<latch>,%bb4,%bb2,%bb<exiting>,%bb6
+Printing analysis 'Natural Loop Information' for function 'Write_xyz_Header':
+Printing analysis 'Natural Loop Information' for function 'Append_xyz_Frame':
+Loop at depth 1 containing: %bb<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Vector_isZero':
+Loop at depth 1 containing: %bb3<header><exiting>,%bb<latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Vector_MakeZero':
+Loop at depth 1 containing: %bb<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Vector_Copy':
+Loop at depth 1 containing: %bb<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Vector_Scale':
+Loop at depth 1 containing: %bb<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Vector_Sum':
+Loop at depth 1 containing: %bb<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Vector_Add':
+Loop at depth 1 containing: %bb<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Vector_Print':
+Loop at depth 1 containing: %bb<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Dot':
+Loop at depth 1 containing: %bb<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Norm':
+Loop at depth 1 containing: %bb<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'rvec_Copy':
+Printing analysis 'Natural Loop Information' for function 'rvec_Scale':
+Printing analysis 'Natural Loop Information' for function 'rvec_Add':
+Printing analysis 'Natural Loop Information' for function 'rvec_ScaledAdd':
+Printing analysis 'Natural Loop Information' for function 'rvec_Sum':
+Printing analysis 'Natural Loop Information' for function 'rvec_ScaledSum':
+Printing analysis 'Natural Loop Information' for function 'rvec_Dot':
+Printing analysis 'Natural Loop Information' for function 'rvec_ScaledDot':
+Printing analysis 'Natural Loop Information' for function 'rvec_Multiply':
+Printing analysis 'Natural Loop Information' for function 'rvec_iMultiply':
+Printing analysis 'Natural Loop Information' for function 'rvec_Divide':
+Printing analysis 'Natural Loop Information' for function 'rvec_iDivide':
+Printing analysis 'Natural Loop Information' for function 'rvec_Invert':
+Printing analysis 'Natural Loop Information' for function 'rvec_Cross':
+Printing analysis 'Natural Loop Information' for function 'rvec_OuterProduct':
+Printing analysis 'Natural Loop Information' for function 'rvec_Norm_Sqr':
+Printing analysis 'Natural Loop Information' for function 'rvec_Norm':
+Printing analysis 'Natural Loop Information' for function 'rvec_isZero':
+Printing analysis 'Natural Loop Information' for function 'rvec_MakeZero':
+Printing analysis 'Natural Loop Information' for function 'rvec_Random':
+Printing analysis 'Natural Loop Information' for function 'rtensor_Multiply':
+Loop at depth 1 containing: %bb7.preheader<header><latch><exiting>
+Loop at depth 1 containing: %bb23.preheader<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'rtensor_MatVec':
+Printing analysis 'Natural Loop Information' for function 'rtensor_Scale':
+Printing analysis 'Natural Loop Information' for function 'rtensor_Add':
+Printing analysis 'Natural Loop Information' for function 'rtensor_ScaledAdd':
+Printing analysis 'Natural Loop Information' for function 'rtensor_Sum':
+Printing analysis 'Natural Loop Information' for function 'rtensor_ScaledSum':
+Printing analysis 'Natural Loop Information' for function 'rtensor_Copy':
+Printing analysis 'Natural Loop Information' for function 'rtensor_Identity':
+Printing analysis 'Natural Loop Information' for function 'rtensor_MakeZero':
+Printing analysis 'Natural Loop Information' for function 'rtensor_Transpose':
+Printing analysis 'Natural Loop Information' for function 'rtensor_Det':
+Printing analysis 'Natural Loop Information' for function 'rtensor_Trace':
+Printing analysis 'Natural Loop Information' for function 'Print_rTensor':
+Printing analysis 'Natural Loop Information' for function 'ivec_MakeZero':
+Printing analysis 'Natural Loop Information' for function 'ivec_Copy':
+Printing analysis 'Natural Loop Information' for function 'ivec_Scale':
+Printing analysis 'Natural Loop Information' for function 'ivec_rScale':
+Printing analysis 'Natural Loop Information' for function 'ivec_isZero':
+Printing analysis 'Natural Loop Information' for function 'ivec_isEqual':
+Printing analysis 'Natural Loop Information' for function 'ivec_Sum':
+Printing analysis 'Natural Loop Information' for function 'Reallocate_Neighbor_List':
+Printing analysis 'Natural Loop Information' for function 'Allocate_Matrix':
+Printing analysis 'Natural Loop Information' for function 'Deallocate_Matrix':
+Printing analysis 'Natural Loop Information' for function 'Reallocate_Matrix':
+Printing analysis 'Natural Loop Information' for function 'Allocate_HBond_List':
+Loop at depth 1 containing: %bb<header><latch><exiting>
+Loop at depth 1 containing: %bb5<header>,%bb9<latch><exiting>,%bb6,%bb7,%bb8
+Printing analysis 'Natural Loop Information' for function 'Reallocate_HBonds_List':
+Loop at depth 1 containing: %bb<header>,%bb5<latch><exiting>,%bb4,%bb1,%bb2
+Printing analysis 'Natural Loop Information' for function 'Allocate_Bond_List':
+Loop at depth 1 containing: %bb<header><latch><exiting>
+Loop at depth 1 containing: %bb5<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Reallocate_Bonds_List':
+Loop at depth 1 containing: %bb<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Reallocate':
+Loop at depth 1 containing: %bb22.preheader<header>,%bb23<latch><exiting>,%bb22.bb23_crit_edge,%bb21,%bb20.bb21_crit_edge,%bb19,%bb20.preheader,%bb20.preheader.lr.ph
+    Loop at depth 2 containing: %bb20.preheader<header>,%bb21<latch><exiting>,%bb20.bb21_crit_edge,%bb19
+        Loop at depth 3 containing: %bb19<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Copy_Bond_List':
+Loop at depth 1 containing: %bb<header>,%bb5<latch><exiting>,%bb3,%bb1,%bb1.lr.ph,%bb3.bb1_crit_edge,%bb2
+    Loop at depth 2 containing: %bb1<header>,%bb3.bb1_crit_edge<latch>,%bb3<exiting>,%bb2
+Printing analysis 'Natural Loop Information' for function 'Compare_Bond_Lists':
+Loop at depth 1 containing: %bb23<header>,%bb12,%bb10<exiting>,%bb9<exiting>,%bb8<exiting>,%bb6,%bb5,%bb7,%bb6.loopexit,%bb2,%bb1,%bb3,%bb2.preheader,%bb24<exiting>,%bb21
+    Loop at depth 2 containing: %bb6<header><exiting>,%bb5<latch>,%bb7<exiting>
+    Loop at depth 2 containing: %bb2<header><exiting>,%bb1<latch>,%bb3<exiting>
+Printing analysis 'Natural Loop Information' for function 'Get_Molecule':
+Loop at depth 1 containing: %bb2<header>,%bb5<latch><exiting>,%bb3,%bb4
+Printing analysis 'Natural Loop Information' for function 'Print_Molecule':
+Loop at depth 1 containing: %bb1<header>,%bb3<latch><exiting>,%bb2
+Loop at depth 1 containing: %bb8<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Analyze_Molecules':
+Loop at depth 1 containing: %bb<header>,%bb29<latch><exiting>,%bb1,%bb28,%bb24,%bb20,%bb19.loopexit,%bb17,%bb15,%bb13,%bb16.preheader,%bb16.preheader.lr.ph,%bb18.loopexit,%bb9,%bb7,%bb5,%bb8.preheader,%bb8.preheader.lr.ph,%bb10.preheader,%bb2,%bb6,%bb14,%bb21,%bb21.lr.ph,%bb25,%bb25.lr.ph
+    Loop at depth 2 containing: %bb10.preheader<header>,%bb19.loopexit<latch><exiting>,%bb17,%bb15,%bb13,%bb16.preheader,%bb16.preheader.lr.ph,%bb18.loopexit,%bb9,%bb7,%bb5,%bb8.preheader,%bb8.preheader.lr.ph,%bb6,%bb14
+        Loop at depth 3 containing: %bb16.preheader<header>,%bb17<latch><exiting>,%bb15,%bb13,%bb14
+            Loop at depth 4 containing: %bb13<header>,%bb15<latch><exiting>,%bb14
+        Loop at depth 3 containing: %bb8.preheader<header>,%bb9<latch><exiting>,%bb7,%bb5,%bb6
+            Loop at depth 4 containing: %bb5<header>,%bb7<latch><exiting>,%bb6
+    Loop at depth 2 containing: %bb21<header><latch><exiting>
+    Loop at depth 2 containing: %bb25<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Report_Bond_Change':
+Loop at depth 1 containing: %bb23<header>,%bb25.bb23_crit_edge<latch>,%bb25<exiting>,%bb24
+Loop at depth 1 containing: %bb28<header>,%bb30.bb28_crit_edge<latch>,%bb30<exiting>,%bb29
+Printing analysis 'Natural Loop Information' for function 'Compare_Bonding':
+Loop at depth 1 containing: %bb1<header><exiting>,%bb<latch>,%bb2<exiting>
+Loop at depth 1 containing: %bb5<header><exiting>,%bb4<latch>,%bb6<exiting>
+Loop at depth 1 containing: %bb36<header>,%bb36.backedge<latch>,%bb19,%bb18,%bb17,%bb16,%bb14,%bb13,%bb15,%bb14.loopexit,%bb10,%bb9,%bb11,%bb10.preheader,%bb37<exiting>,%bb21,%bb20,%bb22,%bb27,%bb25,%bb25.lr.ph,%bb27.bb25_crit_edge,%bb26,%bb30,%bb34,%bb32,%bb32.lr.ph,%bb34.bb32_crit_edge,%bb33
+    Loop at depth 2 containing: %bb14<header><exiting>,%bb13<latch>,%bb15<exiting>
+    Loop at depth 2 containing: %bb10<header><exiting>,%bb9<latch>,%bb11<exiting>
+    Loop at depth 2 containing: %bb25<header>,%bb27.bb25_crit_edge<latch>,%bb27<exiting>,%bb26
+    Loop at depth 2 containing: %bb32<header>,%bb34.bb32_crit_edge<latch>,%bb34<exiting>,%bb33
+Printing analysis 'Natural Loop Information' for function 'Visit_Bonds':
+Loop at depth 1 containing: %bb2<header>,%bb5<latch><exiting>,%bb3,%bb4
+Printing analysis 'Natural Loop Information' for function 'Analyze_Fragments':
+Loop at depth 1 containing: %bb<header>,%bb11<latch><exiting>,%bb5,%bb3,%bb7,%bb3.i,%bb1.i,%bb1,%bb2.i,%bb6,%bb9
+    Loop at depth 2 containing: %bb7<header><exiting>,%bb6<latch>,%bb3<exiting>
+    Loop at depth 2 containing: %bb1.i<header>,%bb3.i<latch><exiting>,%bb2.i
+Loop at depth 1 containing: %bb14<header>,%bb17<latch><exiting>,%bb15,%bb16
+Printing analysis 'Natural Loop Information' for function 'Analyze_Silica':
+Loop at depth 1 containing: %bb3<header>,%bb12<latch><exiting>,%bb8,%bb7.bb8_crit_edge,%bb4,%bb4.lr.ph,%bb9,%bb11
+    Loop at depth 2 containing: %bb4<header><latch><exiting>
+Loop at depth 1 containing: %bb25<header>,%bb45<latch><exiting>,%bb27,%bb43,%bb28,%bb28.lr.ph,%bb29,%bb31,%bb41,%bb32,%bb32.lr.ph,%bb33,%bb34,%bb36,%bb35,%bb37,%bb38,%bb39,%bb40
+    Loop at depth 2 containing: %bb28<header>,%bb43<latch><exiting>,%bb29,%bb31,%bb41,%bb32,%bb32.lr.ph,%bb33,%bb34,%bb36,%bb35,%bb37,%bb38,%bb39,%bb40
+        Loop at depth 3 containing: %bb32<header>,%bb41<latch><exiting>,%bb33,%bb34,%bb36,%bb35,%bb37,%bb38,%bb39,%bb40
+Printing analysis 'Natural Loop Information' for function 'Get_Type_of_Molecule':
+Printing analysis 'Natural Loop Information' for function 'Calculate_Dipole_Moment':
+Loop at depth 1 containing: %bb<header>,%bb13<latch><exiting>,%bb1,%bb2,%bb.i,%bb1.i,%bb11
+Printing analysis 'Natural Loop Information' for function 'Copy_Positions':
+Loop at depth 1 containing: %bb<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Calculate_Drift':
+Loop at depth 1 containing: %bb3<header>,%bb13<latch><exiting>,%bb4,%bb5,%bb10,%bb6,%bb11
+Printing analysis 'Natural Loop Information' for function 'Calculate_Density_3DMesh':
+Loop at depth 1 containing: %bb3<header>,%bb6<latch><exiting>,%bb4
+    Loop at depth 2 containing: %bb4<header><latch><exiting>
+Loop at depth 1 containing: %bb9<header><latch><exiting>
+Loop at depth 1 containing: %bb19.preheader<header>,%bb20<latch><exiting>,%bb18,%bb14,%bb14.lr.ph,%bb17.preheader
+    Loop at depth 2 containing: %bb17.preheader<header>,%bb18<latch><exiting>,%bb14,%bb14.lr.ph
+        Loop at depth 3 containing: %bb14<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Calculate_Density_Slice':
+Loop at depth 1 containing: %bb<header><latch><exiting>
+Loop at depth 1 containing: %bb3<header><latch><exiting>
+Loop at depth 1 containing: %bb11<header><exiting>,%bb10<latch>,%bb8<exiting>
+Printing analysis 'Natural Loop Information' for function 'Analysis':
+Loop at depth 1 containing: %bb.i<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Init_Box_From_CRYST':
+Printing analysis 'Natural Loop Information' for function 'Update_Box':
+Printing analysis 'Natural Loop Information' for function 'Update_Box_Isotropic':
+Printing analysis 'Natural Loop Information' for function 'Update_Box_SemiIsotropic':
+Printing analysis 'Natural Loop Information' for function 'Make_Consistent':
+Printing analysis 'Natural Loop Information' for function 'Transform':
+Printing analysis 'Natural Loop Information' for function 'Transform_to_UnitBox':
+Printing analysis 'Natural Loop Information' for function 'Inc_on_T3':
+Printing analysis 'Natural Loop Information' for function 'Sq_Distance_on_T3':
+Printing analysis 'Natural Loop Information' for function 'Distance_on_T3_Gen':
+Printing analysis 'Natural Loop Information' for function 'Inc_on_T3_Gen':
+Printing analysis 'Natural Loop Information' for function 'Metric_Product':
+Printing analysis 'Natural Loop Information' for function 'Are_Far_Neighbors':
+Printing analysis 'Natural Loop Information' for function 'Get_NonPeriodic_Far_Neighbors':
+Printing analysis 'Natural Loop Information' for function 'Get_Periodic_Far_Neighbors_Big_Box':
+Printing analysis 'Natural Loop Information' for function 'Get_Periodic_Far_Neighbors_Small_Box':
+Loop at depth 1 containing: %bb<header>,%bb11.bb_crit_edge<latch>,%bb11<exiting>,%bb9,%bb2,%bb2.lr.ph,%bb9.bb2_crit_edge,%bb7,%bb4,%bb4.lr.ph,%bb7.bb4_crit_edge,%bb5,%bb6
+    Loop at depth 2 containing: %bb2<header>,%bb9.bb2_crit_edge<latch>,%bb9<exiting>,%bb7,%bb4,%bb4.lr.ph,%bb7.bb4_crit_edge,%bb5,%bb6
+        Loop at depth 3 containing: %bb4<header>,%bb7.bb4_crit_edge<latch>,%bb7<exiting>,%bb5,%bb6
+Printing analysis 'Natural Loop Information' for function 'Print_Box_Information':
+Printing analysis 'Natural Loop Information' for function 'Get_Time':
+Printing analysis 'Natural Loop Information' for function 'Get_Timing_Info':
+Printing analysis 'Natural Loop Information' for function 'Temperature_Control':
+Printing analysis 'Natural Loop Information' for function 'Compute_Total_Mass':
+Loop at depth 1 containing: %bb<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Compute_Center_of_Mass':
+Loop at depth 1 containing: %bb<header><latch><exiting>
+Loop at depth 1 containing: %bb7<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Compute_Kinetic_Energy':
+Loop at depth 1 containing: %bb<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Compute_Pressure_Isotropic':
+Loop at depth 1 containing: %bb2<header>,%bb8.bb2_crit_edge<latch>,%bb8<exiting>,%bb7
+Printing analysis 'Natural Loop Information' for function 'Compute_Pressure_Isotropic_Klein':
+Loop at depth 1 containing: %bb<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Compute_Pressure':
+Loop at depth 1 containing: %bb<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Get_Atom_Type':
+Loop at depth 1 containing: %bb3<header><exiting>,%bb2<latch>,%bb<exiting>
+Printing analysis 'Natural Loop Information' for function 'Tokenize':
+Loop at depth 1 containing: %bb<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Init_Taper':
+Printing analysis 'Natural Loop Information' for function 'Read_Force_Field_ext':
+Loop at depth 1 containing: %bb<header><latch><exiting>
+Loop at depth 1 containing: %bb5.preheader<header>,%bb6<latch><exiting>,%bb4
+    Loop at depth 2 containing: %bb4<header><latch><exiting>
+Loop at depth 1 containing: %bb9<header>,%bb12<latch><exiting>,%Tokenize.exit11,%bb.i7,%bb11
+    Loop at depth 2 containing: %bb.i7<header><latch><exiting>
+Loop at depth 1 containing: %bb.i<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Read_Force_Field':
+Loop at depth 1 containing: %bb<header><latch><exiting>
+Loop at depth 1 containing: %bb6<header>,%bb5<latch>,%Tokenize.exit22<exiting>,%bb.i18
+    Loop at depth 2 containing: %bb.i18<header><latch><exiting>
+Loop at depth 1 containing: %bb8<header>,%bb14<latch><exiting>,%bb12,%bb9,%bb10
+    Loop at depth 2 containing: %bb9<header>,%bb12<latch><exiting>,%bb10
+        Loop at depth 3 containing: %bb10<header><latch><exiting>
+Loop at depth 1 containing: %bb41<header>,%bb40<latch>,%bb25,%bb23,%bb22,%bb21,%Tokenize.exit55,%Tokenize.exit44,%Tokenize.exit33,%bb20,%bb18,%bb19.preheader,%Tokenize.exit66<exiting>,%bb.i62,%bb.i29,%bb.i40,%bb.i51,%bb26,%bb30,%bb28,%bb31,%bb36,%bb34,%bb33<exiting>,%bb37
+    Loop at depth 2 containing: %bb18<header><latch><exiting>
+    Loop at depth 2 containing: %bb.i62<header><latch><exiting>
+    Loop at depth 2 containing: %bb.i29<header><latch><exiting>
+    Loop at depth 2 containing: %bb.i40<header><latch><exiting>
+    Loop at depth 2 containing: %bb.i51<header><latch><exiting>
+Loop at depth 1 containing: %bb43<header>,%bb46<latch><exiting>,%Tokenize.exit77,%bb.i73,%Tokenize.exit88,%bb45,%bb.i84
+    Loop at depth 2 containing: %bb.i73<header><latch><exiting>
+    Loop at depth 2 containing: %bb.i84<header><latch><exiting>
+Loop at depth 1 containing: %bb51.preheader<header>,%bb52<latch><exiting>,%bb50
+    Loop at depth 2 containing: %bb50<header><latch><exiting>
+Loop at depth 1 containing: %bb55<header>,%bb69<latch><exiting>,%Tokenize.exit110,%bb.i106,%bb67,%bb65,%bb63,%bb61,%bb59,%bb57,%bb58,%bb60,%bb62,%bb64,%bb66,%bb68
+    Loop at depth 2 containing: %bb.i106<header><latch><exiting>
+Loop at depth 1 containing: %bb77.preheader<header>,%bb78<latch><exiting>,%bb76,%bb74,%bb75.preheader
+    Loop at depth 2 containing: %bb75.preheader<header>,%bb76<latch><exiting>,%bb74
+        Loop at depth 3 containing: %bb74<header><latch><exiting>
+Loop at depth 1 containing: %bb81<header>,%bb85<latch><exiting>,%Tokenize.exit132,%bb.i128,%bb84
+    Loop at depth 2 containing: %bb.i128<header><latch><exiting>
+Loop at depth 1 containing: %bb96.preheader<header>,%bb97<latch><exiting>,%bb95,%bb93,%bb91,%bb91.lr.ph,%bb92.preheader,%bb94.preheader
+    Loop at depth 2 containing: %bb94.preheader<header>,%bb95<latch><exiting>,%bb93,%bb91,%bb91.lr.ph,%bb92.preheader
+        Loop at depth 3 containing: %bb92.preheader<header>,%bb93<latch><exiting>,%bb91,%bb91.lr.ph
+            Loop at depth 4 containing: %bb91<header><latch><exiting>
+Loop at depth 1 containing: %bb121<header>,%bb120<latch>,%bb102,%bb100,%Tokenize.exit154<exiting>,%bb.i150,%bb106,%bb108,%bb118,%bb116,%bb114,%bb112,%bb112.lr.ph,%bb117.preheader,%bb117.preheader.lr.ph,%bb113,%bb115
+    Loop at depth 2 containing: %bb.i150<header><latch><exiting>
+    Loop at depth 2 containing: %bb117.preheader<header>,%bb118<latch><exiting>,%bb116,%bb114,%bb112,%bb112.lr.ph,%bb113,%bb115
+        Loop at depth 3 containing: %bb112<header>,%bb116<latch><exiting>,%bb114,%bb113,%bb115
+Loop at depth 1 containing: %bb123<header>,%bb126<latch><exiting>,%Tokenize.exit165,%bb.i161,%bb125
+    Loop at depth 2 containing: %bb.i161<header><latch><exiting>
+Loop at depth 1 containing: %bb129<header><latch><exiting>
+Loop at depth 1 containing: %bb137.preheader<header>,%bb138<latch><exiting>,%bb136,%bb134,%bb135.preheader
+    Loop at depth 2 containing: %bb135.preheader<header>,%bb136<latch><exiting>,%bb134
+        Loop at depth 3 containing: %bb134<header><latch><exiting>
+Loop at depth 1 containing: %bb.i139<header><latch><exiting>
+Loop at depth 1 containing: %bb.i117<header><latch><exiting>
+Loop at depth 1 containing: %bb.i95<header><latch><exiting>
+Loop at depth 1 containing: %bb.i<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Read_Control_File':
+Loop at depth 1 containing: %bb<header><latch><exiting>
+Loop at depth 1 containing: %bb190<header><exiting>,%bb4,%Tokenize.exit,%bb3,%bb.i,%bb6,%bb5,%bb8,%bb7,%bb10,%bb9,%bb12,%bb11,%bb14,%bb13,%bb16,%bb15,%bb18,%bb17,%bb20,%bb19,%bb22,%bb21,%bb24,%bb23,%bb26,%bb25,%bb28,%bb27,%bb30,%bb29,%bb32,%bb31,%bb34,%bb33,%bb36,%bb35,%bb38,%bb37,%bb40,%bb39,%bb42,%bb41,%bb44,%bb43,%bb46,%bb45,%bb48,%bb47,%bb49,%bb52,%bb51,%bb53,%bb56,%bb55,%bb58,%bb57,%bb60,%bb59,%bb62,%bb61,%bb64,%bb63,%bb65,%bb67,%bb70,%bb69,%bb71,%bb73,%bb76,%bb75,%bb78,%bb77,%bb80,%bb79,%bb82,%bb81,%bb84,%bb83,%bb86,%bb85,%bb88,%bb87,%bb90,%bb89,%bb92,%bb95,%bb94,%bb96,%bb98,%bb101,%bb100,%bb103,%bb102,%bb105,%bb104,%bb107,%bb106,%bb109,%bb108,%bb111,%bb110,%bb112,%bb115,%bb114,%bb117,%bb116,%bb119,%bb118,%bb121,%bb120,%bb122,%bb126,%bb125,%bb128,%bb127,%bb130,%bb129,%bb132,%bb131,%bb134,%bb133,%bb136,%bb135,%bb138,%bb137,%bb140,%bb139,%bb142,%bb141,%bb144,%bb143,%bb146,%bb145,%bb148,%bb147,%bb150,%bb149,%bb152,%bb151,%bb154,%bb153,%bb156,%bb155,%bb158,%bb157,%bb160,%bb159,%bb162,%bb161,%bb164,%bb163,%bb166,%bb165,%bb168,%bb167,%bb170,%bb169,%bb172,%bb171,%bb174,%bb173,%bb176,%bb175,%bb178,%bb177,%bb180,%bb179,%bb182,%bb181,%bb184,%bb183,%bb186,%bb185,%bb188,%bb187<exiting>
+    Loop at depth 2 containing: %bb.i<header><latch><exiting>
+    Loop at depth 2 containing: %bb122<header><latch><exiting>
+Loop at depth 1 containing: %bb198<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'is_Valid_Serial':
+Printing analysis 'Natural Loop Information' for function 'Check_Input_Range':
+Printing analysis 'Natural Loop Information' for function 'Trim_Spaces':
+Loop at depth 1 containing: %bb<header><latch><exiting>
+Loop at depth 1 containing: %bb4<header><exiting>,%bb3<latch>,%bb5<exiting>
+Printing analysis 'Natural Loop Information' for function 'Read_PDB':
+Loop at depth 1 containing: %bb2<header><latch><exiting>
+Loop at depth 1 containing: %bb5<header>,%bb8.backedge<latch><exiting>,%bb6,%Tokenize.exit,%bb.i,%bb7
+    Loop at depth 2 containing: %bb.i<header><latch><exiting>
+Loop at depth 1 containing: %bb10<header><exiting>,%bb10.bb10_crit_edge<latch>
+Loop at depth 1 containing: %bb13<header><exiting>,%bb13.bb13_crit_edge<latch>
+Loop at depth 1 containing: %bb45.outer<header>,%Get_Atom_Type.exit<latch>,%bb.i12,%bb3.i<exiting>,%Check_Input_Range.exit,%bb25<exiting>,%bb22,%Tokenize.exit11,%bb19,%bb16,%bb45<exiting>,%bb30,%bb29,%bb20,%bb37,%bb44,%is_Valid_Serial.exit,%Check_Input_Range.exit19<exiting>,%bb38<exiting>,%is_Valid_Serial.exit24,%bb41<exiting>,%bb17,%bb17.lr.ph,%bb3.bb4_crit_edge.i9,%bb.i7,%bb23,%bb24,%bb2.i
+    Loop at depth 2 containing: %bb3.i<header><exiting>,%bb2.i<latch>,%bb.i12<exiting>
+    Loop at depth 2 containing: %bb45<header><exiting>,%bb30,%bb29,%bb20<exiting>,%Tokenize.exit11<exiting>,%bb19,%bb16,%bb17,%bb17.lr.ph,%bb3.bb4_crit_edge.i9,%bb.i7,%bb37,%bb44,%is_Valid_Serial.exit,%Check_Input_Range.exit19<exiting>,%bb38<exiting>,%is_Valid_Serial.exit24,%bb41<exiting>
+        Loop at depth 3 containing: %bb17<header><latch><exiting>
+        Loop at depth 3 containing: %bb.i7<header><latch><exiting>
+        Loop at depth 3 containing: %bb44<header><exiting>,%is_Valid_Serial.exit24<latch>,%bb41<exiting>
+Printing analysis 'Natural Loop Information' for function 'Write_PDB':
+Loop at depth 1 containing: %bb<header><latch><exiting>
+Loop at depth 1 containing: %bb8<header>,%bb16<latch><exiting>,%bb13,%bb11,%bb9,%bb9.lr.ph,%bb10,%bb14,%bb14.lr.ph
+    Loop at depth 2 containing: %bb9<header>,%bb11<latch><exiting>,%bb10
+    Loop at depth 2 containing: %bb14<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Read_BGF':
+Loop at depth 1 containing: %bb2<header><latch><exiting>
+Loop at depth 1 containing: %bb5<header>,%bb8.backedge<latch><exiting>,%bb6,%Tokenize.exit,%bb.i,%bb7
+    Loop at depth 2 containing: %bb.i<header><latch><exiting>
+Loop at depth 1 containing: %bb10<header><exiting>,%bb10.bb10_crit_edge<latch>
+Loop at depth 1 containing: %bb13<header><exiting>,%bb13.bb13_crit_edge<latch>
+Loop at depth 1 containing: %bb45.outer<header>,%Get_Atom_Type.exit<latch>,%bb.i12,%bb3.i<exiting>,%Check_Input_Range.exit,%bb25<exiting>,%bb22,%Tokenize.exit11,%bb19,%bb16,%bb45<exiting>,%bb30,%bb29,%bb20,%bb37,%bb44,%is_Valid_Serial.exit,%Check_Input_Range.exit19<exiting>,%bb38<exiting>,%is_Valid_Serial.exit24,%bb41<exiting>,%bb17,%bb17.lr.ph,%bb3.bb4_crit_edge.i9,%bb.i7,%bb23,%bb24,%bb2.i
+    Loop at depth 2 containing: %bb3.i<header><exiting>,%bb2.i<latch>,%bb.i12<exiting>
+    Loop at depth 2 containing: %bb45<header><exiting>,%bb30,%bb29,%bb20<exiting>,%Tokenize.exit11<exiting>,%bb19,%bb16,%bb17,%bb17.lr.ph,%bb3.bb4_crit_edge.i9,%bb.i7,%bb37,%bb44,%is_Valid_Serial.exit,%Check_Input_Range.exit19<exiting>,%bb38<exiting>,%is_Valid_Serial.exit24,%bb41<exiting>
+        Loop at depth 3 containing: %bb17<header><latch><exiting>
+        Loop at depth 3 containing: %bb.i7<header><latch><exiting>
+        Loop at depth 3 containing: %bb44<header><exiting>,%is_Valid_Serial.exit24<latch>,%bb41<exiting>
+Printing analysis 'Natural Loop Information' for function 'DistSqr_to_CP':
+Printing analysis 'Natural Loop Information' for function 'Generate_Neighbor_Lists':
+Loop at depth 1 containing: %bb18.preheader<header>,%bb19<latch><exiting>,%bb18.bb19_crit_edge,%bb17,%bb16.bb17_crit_edge,%bb15,%bb2,%bb2.lr.ph,%bb16.preheader,%bb16.preheader.lr.ph,%bb14.bb15_crit_edge,%bb13,%bb3,%bb3.lr.ph,%bb11,%DistSqr_to_CP.exit,%bb2.1.i,%bb2.i,%bb4,%bb1.i,%bb1.1.i,%bb1.2.i,%bb5,%bb9,%bb6,%bb6.lr.ph,%bb7,%bb8
+    Loop at depth 2 containing: %bb16.preheader<header>,%bb17<latch><exiting>,%bb16.bb17_crit_edge,%bb15,%bb2,%bb2.lr.ph,%bb14.bb15_crit_edge,%bb13,%bb3,%bb3.lr.ph,%bb11,%DistSqr_to_CP.exit,%bb2.1.i,%bb2.i,%bb4,%bb1.i,%bb1.1.i,%bb1.2.i,%bb5,%bb9,%bb6,%bb6.lr.ph,%bb7,%bb8
+        Loop at depth 3 containing: %bb2<header>,%bb15<latch><exiting>,%bb14.bb15_crit_edge,%bb13,%bb3,%bb3.lr.ph,%bb11,%DistSqr_to_CP.exit,%bb2.1.i,%bb2.i,%bb4,%bb1.i,%bb1.1.i,%bb1.2.i,%bb5,%bb9,%bb6,%bb6.lr.ph,%bb7,%bb8
+            Loop at depth 4 containing: %bb3<header>,%bb13<latch><exiting>,%bb11,%DistSqr_to_CP.exit,%bb2.1.i,%bb2.i,%bb4,%bb1.i,%bb1.1.i,%bb1.2.i,%bb5,%bb9,%bb6,%bb6.lr.ph,%bb7,%bb8
+                Loop at depth 5 containing: %bb4<header>,%bb11<latch><exiting>,%DistSqr_to_CP.exit,%bb2.1.i,%bb2.i,%bb1.i,%bb1.1.i,%bb1.2.i,%bb5,%bb9,%bb6,%bb6.lr.ph,%bb7,%bb8
+                    Loop at depth 6 containing: %bb6<header>,%bb9<latch><exiting>,%bb7,%bb8
+Printing analysis 'Natural Loop Information' for function 'Estimate_NumNeighbors':
+Loop at depth 1 containing: %bb18.preheader<header>,%bb19<latch><exiting>,%bb18.bb19_crit_edge,%bb17,%bb16.bb17_crit_edge,%bb15,%bb2,%bb2.lr.ph,%bb16.preheader,%bb16.preheader.lr.ph,%bb14.bb15_crit_edge,%bb13,%bb3,%bb3.lr.ph,%bb12.bb13_crit_edge,%bb11,%DistSqr_to_CP.exit,%bb2.1.i,%bb2.i,%bb4,%bb4.lr.ph,%bb1.i,%bb1.1.i,%bb1.2.i,%bb5,%bb9,%bb6,%bb6.lr.ph,%bb7
+    Loop at depth 2 containing: %bb16.preheader<header>,%bb17<latch><exiting>,%bb16.bb17_crit_edge,%bb15,%bb2,%bb2.lr.ph,%bb14.bb15_crit_edge,%bb13,%bb3,%bb3.lr.ph,%bb12.bb13_crit_edge,%bb11,%DistSqr_to_CP.exit,%bb2.1.i,%bb2.i,%bb4,%bb4.lr.ph,%bb1.i,%bb1.1.i,%bb1.2.i,%bb5,%bb9,%bb6,%bb6.lr.ph,%bb7
+        Loop at depth 3 containing: %bb2<header>,%bb15<latch><exiting>,%bb14.bb15_crit_edge,%bb13,%bb3,%bb3.lr.ph,%bb12.bb13_crit_edge,%bb11,%DistSqr_to_CP.exit,%bb2.1.i,%bb2.i,%bb4,%bb4.lr.ph,%bb1.i,%bb1.1.i,%bb1.2.i,%bb5,%bb9,%bb6,%bb6.lr.ph,%bb7
+            Loop at depth 4 containing: %bb3<header>,%bb13<latch><exiting>,%bb12.bb13_crit_edge,%bb11,%DistSqr_to_CP.exit,%bb2.1.i,%bb2.i,%bb4,%bb4.lr.ph,%bb1.i,%bb1.1.i,%bb1.2.i,%bb5,%bb9,%bb6,%bb6.lr.ph,%bb7
+                Loop at depth 5 containing: %bb4<header>,%bb11<latch><exiting>,%DistSqr_to_CP.exit,%bb2.1.i,%bb2.i,%bb1.i,%bb1.1.i,%bb1.2.i,%bb5,%bb9,%bb6,%bb6.lr.ph,%bb7
+                    Loop at depth 6 containing: %bb6<header>,%bb9<latch><exiting>,%bb7
+Printing analysis 'Natural Loop Information' for function 'Sparse_MatVec':
+Loop at depth 1 containing: %bb3<header>,%bb6<latch><exiting>,%bb3.bb6_crit_edge,%bb4,%bb4.lr.ph
+    Loop at depth 2 containing: %bb4<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Forward_Subs':
+Loop at depth 1 containing: %bb<header>,%bb3<latch><exiting>,%bb1,%bb1.lr.ph
+    Loop at depth 2 containing: %bb1<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Backward_Subs':
+Loop at depth 1 containing: %bb<header>,%bb3<latch><exiting>,%bb1,%bb1.lr.ph
+    Loop at depth 2 containing: %bb1<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'GMRES':
+Loop at depth 1 containing: %bb.i<header><latch><exiting>
+Loop at depth 1 containing: %bb<header><latch><exiting>
+Loop at depth 1 containing: %bb32<header><exiting>,%bb31<latch>,%bb30<exiting>,%bb21,%bb20,%bb19,%Norm.exit57,%Vector_Sum.exit.thread,%bb3,%bb6,%bb4,%Vector_Sum.exit,%bb.i9,%bb.i55,%bb.i68,%bb18,%bb16,%bb14,%Norm.exit44,%bb13,%Vector_Add.exit81,%Dot.exit,%bb11,%bb11.lr.ph,%bb7,%bb8,%bb.i93,%Vector_Add.exit81.loopexit,%bb.i80,%bb.i42,%bb.i31,%bb15,%Vector_Add.exit,%bb28,%bb28.lr.ph,%bb25,%bb22.bb25_crit_edge,%bb22,%bb22.lr.ph,%bb21.thread,%bb23,%bb23.lr.ph,%bb.i20
+    Loop at depth 2 containing: %bb19<header><exiting>,%bb18<latch>,%bb16,%bb14,%Norm.exit44,%bb13,%Vector_Add.exit81,%Dot.exit,%bb11,%bb11.lr.ph,%bb7,%bb20<exiting>,%bb8,%bb.i93,%Vector_Add.exit81.loopexit,%bb.i80,%bb.i42,%bb.i31,%bb15
+        Loop at depth 3 containing: %bb14<header>,%bb16<latch><exiting>,%bb15
+        Loop at depth 3 containing: %bb11<header>,%Vector_Add.exit81<latch><exiting>,%Dot.exit,%bb.i93,%Vector_Add.exit81.loopexit,%bb.i80
+            Loop at depth 4 containing: %bb.i93<header><latch><exiting>
+            Loop at depth 4 containing: %bb.i80<header><latch><exiting>
+        Loop at depth 3 containing: %bb8<header><latch><exiting>
+        Loop at depth 3 containing: %bb.i42<header><latch><exiting>
+        Loop at depth 3 containing: %bb.i31<header><latch><exiting>
+    Loop at depth 2 containing: %bb4<header><latch><exiting>
+    Loop at depth 2 containing: %bb.i9<header><latch><exiting>
+    Loop at depth 2 containing: %bb.i55<header><latch><exiting>
+    Loop at depth 2 containing: %bb.i68<header><latch><exiting>
+    Loop at depth 2 containing: %bb28<header>,%Vector_Add.exit<latch><exiting>,%bb.i20
+        Loop at depth 3 containing: %bb.i20<header><latch><exiting>
+    Loop at depth 2 containing: %bb22<header>,%bb25<latch><exiting>,%bb22.bb25_crit_edge,%bb23,%bb23.lr.ph
+        Loop at depth 3 containing: %bb23<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'GMRES_HouseHolder':
+Loop at depth 1 containing: %bb.i<header><latch><exiting>
+Loop at depth 1 containing: %bb<header><latch><exiting>
+Loop at depth 1 containing: %bb61<header><exiting>,%bb60<latch>,%bb59<exiting>,%bb50,%bb49,%bb48,%Vector_Scale.exit156,%Vector_Copy.exit.thread,%Norm.exit102.thread,%Vector_MakeZero.exit76,%bb.i75,%bb3,%bb6,%bb4,%bb.i10,%Norm.exit102,%bb.i100,%Vector_Copy.exit,%bb.i113,%Norm.exit144,%bb.i142,%Vector_Scale.exit156.loopexit,%bb.i155,%bb45,%bb42,%bb40,%bb40.lr.ph,%bb41.preheader,%bb3.i,%Vector_Add.exit168,%bb22,%bb17,%Vector_Scale.exit194,%bb14,%bb.i193,%bb16.backedge,%bb15,%Dot.exit220,%bb.i218,%bb.i205,%bb19,%bb19.lr.ph,%Dot.exit182,%bb.i180,%bb.i167,%bb.i129,%Dot.exit,%Vector_Scale.exit,%Norm.exit89,%Vector_Copy.exit125.thread,%bb31,%Vector_Copy.exit125,%bb.i124,%bb.i87,%Norm.exit68,%bb.i66,%bb.i55,%Dot.exit.loopexit,%bb.i43,%bb.i31,%bb43,%Vector_Add.exit,%bb57,%bb57.lr.ph,%bb54,%bb51.bb54_crit_edge,%bb51,%bb51.lr.ph,%bb50.thread,%bb52,%bb52.lr.ph,%bb.i21
+    Loop at depth 2 containing: %bb48<header><exiting>,%bb45<latch>,%bb42,%bb40,%bb40.lr.ph,%bb41.preheader,%bb3.i,%Vector_Add.exit168,%bb22,%bb17,%Vector_Scale.exit194,%bb14,%bb49<exiting>,%bb.i193,%bb16.backedge,%bb15,%Dot.exit220,%bb.i218,%bb.i205,%bb19,%bb19.lr.ph,%Dot.exit182,%bb.i180,%bb.i167,%bb.i129,%Dot.exit,%Vector_Scale.exit,%Norm.exit89,%Vector_Copy.exit125.thread,%bb31,%Vector_Copy.exit125,%bb.i124,%bb.i87,%Norm.exit68,%bb.i66,%bb.i55,%Dot.exit.loopexit,%bb.i43,%bb.i31,%bb43
+        Loop at depth 3 containing: %bb45<header><latch><exiting>
+        Loop at depth 3 containing: %bb40<header><latch><exiting>
+        Loop at depth 3 containing: %bb3.i<header><exiting>,%bb.i129<latch><exiting>
+        Loop at depth 3 containing: %bb22<header>,%Vector_Add.exit168<latch><exiting>,%Dot.exit182,%bb.i180,%bb.i167
+            Loop at depth 4 containing: %bb.i180<header><latch><exiting>
+            Loop at depth 4 containing: %bb.i167<header><latch><exiting>
+        Loop at depth 3 containing: %bb.i193<header><latch><exiting>
+        Loop at depth 3 containing: %bb15<header>,%bb16.backedge<latch><exiting>,%Dot.exit220,%bb.i218,%bb.i205
+            Loop at depth 4 containing: %bb.i218<header><latch><exiting>
+            Loop at depth 4 containing: %bb.i205<header><latch><exiting>
+        Loop at depth 3 containing: %bb19<header><latch><exiting>
+        Loop at depth 3 containing: %bb.i124<header><latch><exiting>
+        Loop at depth 3 containing: %bb.i87<header><latch><exiting>
+        Loop at depth 3 containing: %bb.i66<header><latch><exiting>
+        Loop at depth 3 containing: %bb.i55<header><latch><exiting>
+        Loop at depth 3 containing: %bb.i43<header><latch><exiting>
+        Loop at depth 3 containing: %bb.i31<header><latch><exiting>
+    Loop at depth 2 containing: %bb.i75<header><latch><exiting>
+    Loop at depth 2 containing: %bb4<header><latch><exiting>
+    Loop at depth 2 containing: %bb.i10<header><latch><exiting>
+    Loop at depth 2 containing: %bb.i100<header><latch><exiting>
+    Loop at depth 2 containing: %bb.i113<header><latch><exiting>
+    Loop at depth 2 containing: %bb.i142<header><latch><exiting>
+    Loop at depth 2 containing: %bb.i155<header><latch><exiting>
+    Loop at depth 2 containing: %bb57<header>,%Vector_Add.exit<latch><exiting>,%bb.i21
+        Loop at depth 3 containing: %bb.i21<header><latch><exiting>
+    Loop at depth 2 containing: %bb51<header>,%bb54<latch><exiting>,%bb51.bb54_crit_edge,%bb52,%bb52.lr.ph
+        Loop at depth 3 containing: %bb52<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'PGMRES':
+Loop at depth 1 containing: %bb.i<header><latch><exiting>
+Loop at depth 1 containing: %bb23<header><exiting>,%bb22<latch>,%Vector_Add.exit<exiting>,%bb21,%Vector_Add.exit32,%bb19,%bb19.lr.ph,%bb20.preheader,%bb18,%bb12,%bb11,%bb10,%Norm.exit79,%Vector_Sum.exit,%bb,%Vector_Sum.exit.loopexit,%bb.i9,%bb.i77,%bb.i90,%bb9,%bb7,%bb5,%Norm.exit66,%bb4,%Vector_Add.exit103,%Dot.exit,%bb2,%bb2.lr.ph,%bb.i115,%Vector_Add.exit103.loopexit,%bb.i102,%bb.i64,%bb.i53,%bb6,%bb16,%bb13.bb16_crit_edge,%bb13,%bb13.lr.ph,%bb12.thread,%bb14,%bb14.lr.ph,%bb.i42,%bb.i31,%bb.i20
+    Loop at depth 2 containing: %bb19<header>,%Vector_Add.exit32<latch><exiting>,%bb.i31
+        Loop at depth 3 containing: %bb.i31<header><latch><exiting>
+    Loop at depth 2 containing: %bb10<header><exiting>,%bb9<latch>,%bb7,%bb5,%Norm.exit66,%bb4,%Vector_Add.exit103,%Dot.exit,%bb2,%bb2.lr.ph,%bb11<exiting>,%bb.i115,%Vector_Add.exit103.loopexit,%bb.i102,%bb.i64,%bb.i53,%bb6
+        Loop at depth 3 containing: %bb5<header>,%bb7<latch><exiting>,%bb6
+        Loop at depth 3 containing: %bb2<header>,%Vector_Add.exit103<latch><exiting>,%Dot.exit,%bb.i115,%Vector_Add.exit103.loopexit,%bb.i102
+            Loop at depth 4 containing: %bb.i115<header><latch><exiting>
+            Loop at depth 4 containing: %bb.i102<header><latch><exiting>
+        Loop at depth 3 containing: %bb.i64<header><latch><exiting>
+        Loop at depth 3 containing: %bb.i53<header><latch><exiting>
+    Loop at depth 2 containing: %bb.i9<header><latch><exiting>
+    Loop at depth 2 containing: %bb.i77<header><latch><exiting>
+    Loop at depth 2 containing: %bb.i90<header><latch><exiting>
+    Loop at depth 2 containing: %bb13<header>,%bb16<latch><exiting>,%bb13.bb16_crit_edge,%bb14,%bb14.lr.ph
+        Loop at depth 3 containing: %bb14<header><latch><exiting>
+    Loop at depth 2 containing: %bb.i42<header><latch><exiting>
+    Loop at depth 2 containing: %bb.i20<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'PCG':
+Loop at depth 1 containing: %bb.i<header><latch><exiting>
+Loop at depth 1 containing: %bb.i9<header><latch><exiting>
+Loop at depth 1 containing: %bb.i46<header><latch><exiting>
+Loop at depth 1 containing: %bb.i60<header><latch><exiting>
+Loop at depth 1 containing: %bb1<header><exiting>,%Vector_Sum.exit22<latch>,%Norm.exit89,%bb,%bb2<exiting>,%Dot.exit76,%bb.i74,%Vector_Add.exit,%bb.i100,%Vector_Add.exit112,%bb.i111,%bb.i87,%Dot.exit,%bb.i34,%bb.i21
+    Loop at depth 2 containing: %bb.i74<header><latch><exiting>
+    Loop at depth 2 containing: %bb.i100<header><latch><exiting>
+    Loop at depth 2 containing: %bb.i111<header><latch><exiting>
+    Loop at depth 2 containing: %bb.i87<header><latch><exiting>
+    Loop at depth 2 containing: %bb.i34<header><latch><exiting>
+    Loop at depth 2 containing: %bb.i21<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'CG':
+Loop at depth 1 containing: %bb.i<header><latch><exiting>
+Loop at depth 1 containing: %bb.i9<header><latch><exiting>
+Loop at depth 1 containing: %bb<header><latch><exiting>
+Loop at depth 1 containing: %bb.i84<header><latch><exiting>
+Loop at depth 1 containing: %bb7<header><exiting>,%Vector_Sum.exit22<latch>,%bb5.preheader,%bb.i46,%Vector_Add.exit58,%bb.i57,%Dot.exit72,%bb.i70,%bb3,%bb8<exiting>,%bb6,%bb4,%bb5.preheader.thread,%Dot.exit,%bb.i34,%bb.i21
+    Loop at depth 2 containing: %bb.i46<header><latch><exiting>
+    Loop at depth 2 containing: %bb.i57<header><latch><exiting>
+    Loop at depth 2 containing: %bb.i70<header><latch><exiting>
+    Loop at depth 2 containing: %bb4<header><latch><exiting>
+    Loop at depth 2 containing: %bb.i34<header><latch><exiting>
+    Loop at depth 2 containing: %bb.i21<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'compare_matrix_entry':
+Printing analysis 'Natural Loop Information' for function 'Sort_Matrix_Rows':
+Loop at depth 1 containing: %bb<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Calculate_Droptol':
+Loop at depth 1 containing: %bb<header><latch><exiting>
+Loop at depth 1 containing: %bb3<header>,%bb6<latch><exiting>,%bb5.bb6_crit_edge,%bb4,%bb4.lr.ph
+    Loop at depth 2 containing: %bb4<header><latch><exiting>
+Loop at depth 1 containing: %bb9<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Estimate_LU_Fill':
+Loop at depth 1 containing: %bb<header>,%bb6.loopexit<latch><exiting>,%bb1,%bb1.lr.ph
+    Loop at depth 2 containing: %bb1<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'ICHOLT':
+Loop at depth 1 containing: %bb30<header><exiting>,%bb29<latch>,%bb24.bb29_crit_edge,%bb24,%bb21,%bb19<exiting>,%bb6,%bb18.bb19_crit_edge,%bb17,%bb7,%bb7.lr.ph,%bb16,%bb14,%bb12,%bb11,%bb9,%bb15,%bb14.outer,%bb10,%bb14.outer.outer,%bb8,%bb13,%bb22,%bb22.lr.ph,%bb27,%bb25,%bb25.lr.ph,%bb26
+    Loop at depth 2 containing: %bb7<header>,%bb17<latch><exiting>,%bb16,%bb14,%bb12,%bb11,%bb9,%bb15,%bb14.outer,%bb10,%bb14.outer.outer,%bb8,%bb13
+        Loop at depth 3 containing: %bb14.outer.outer<header>,%bb13<latch>,%bb11,%bb9,%bb15<exiting>,%bb14<exiting>,%bb12,%bb14.outer,%bb10
+            Loop at depth 4 containing: %bb14.outer<header>,%bb10<latch>,%bb9,%bb15<exiting>,%bb14<exiting>,%bb12,%bb11<exiting>
+                Loop at depth 5 containing: %bb14<header><exiting>,%bb12<latch>,%bb11<exiting>,%bb9<exiting>,%bb15<exiting>
+    Loop at depth 2 containing: %bb22<header><latch><exiting>
+    Loop at depth 2 containing: %bb25<header>,%bb27<latch><exiting>,%bb26
+Loop at depth 1 containing: %bb35<header>,%bb39.loopexit<latch><exiting>,%bb37.bb39.loopexit_crit_edge,%bb36,%bb36.lr.ph
+    Loop at depth 2 containing: %bb36<header><latch><exiting>
+Loop at depth 1 containing: %bb32<header><latch><exiting>
+Loop at depth 1 containing: %bb<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Init_MatVec':
+Loop at depth 1 containing: %bb.i<header><latch><exiting>
+Loop at depth 1 containing: %bb.i2<header>,%bb6.loopexit.i<latch><exiting>,%bb1.i,%bb1.lr.ph.i
+    Loop at depth 2 containing: %bb1.i<header><latch><exiting>
+Loop at depth 1 containing: %bb8<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Calculate_Charges':
+Loop at depth 1 containing: %bb<header><latch><exiting>
+Loop at depth 1 containing: %bb3<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'QEq':
+Loop at depth 1 containing: %bb.i<header><latch><exiting>
+Loop at depth 1 containing: %bb3.i<header><exiting>,%bb3.i.bb3.i_crit_edge<latch>
+Printing analysis 'Natural Loop Information' for function 'Cf45':
+Printing analysis 'Natural Loop Information' for function 'Add_dBond_to_Forces_NPT':
+Loop at depth 1 containing: %bb<header><exiting>,%bb.bb_crit_edge<latch>
+Loop at depth 1 containing: %bb22<header>,%bb34<latch><exiting>,%bb28
+Printing analysis 'Natural Loop Information' for function 'Add_dBond_to_Forces':
+Loop at depth 1 containing: %bb<header><exiting>,%bb.bb_crit_edge<latch>
+Loop at depth 1 containing: %bb3<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Locate_Symmetric_Bond':
+Loop at depth 1 containing: %bb<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Copy_Neighbor_Data':
+Printing analysis 'Natural Loop Information' for function 'Copy_Bond_Order_Data':
+Printing analysis 'Natural Loop Information' for function 'compare_bonds':
+Printing analysis 'Natural Loop Information' for function 'Calculate_Bond_Orders':
+Loop at depth 1 containing: %bb<header><latch><exiting>
+Loop at depth 1 containing: %bb3<header>,%bb27<latch><exiting>,%bb26.bb27_crit_edge,%bb25,%bb23,%bb21,%bb19,%bb17,%bb15,%bb7,%bb6,%bb5,%bb4,%bb4.lr.ph,%bb14,%bb11.bb14_crit_edge,%bb11,%bb8,%bb9,%bb12,%bb16,%bb18,%bb20,%bb22,%bb24
+    Loop at depth 2 containing: %bb4<header>,%bb25<latch><exiting>,%bb23,%bb21,%bb19,%bb17,%bb15,%bb7,%bb6,%bb5,%bb14,%bb11.bb14_crit_edge,%bb11,%bb8,%bb9,%bb12,%bb16,%bb18,%bb20,%bb22,%bb24
+Loop at depth 1 containing: %bb30<header>,%bb33<latch><exiting>,%bb31,%bb32
+Printing analysis 'Natural Loop Information' for function 'LonePair_OverUnder_Coordination_Energy':
+Loop at depth 1 containing: %bb<header>,%bb9<latch><exiting>,%bb1,%bb2,%bb7,%bb3,%bb3.lr.ph,%bb7.bb3_crit_edge,%bb4,%bb5,%bb6
+    Loop at depth 2 containing: %bb3<header>,%bb7.bb3_crit_edge<latch>,%bb7<exiting>,%bb4,%bb5,%bb6
+Loop at depth 1 containing: %bb12<header>,%bb24<latch><exiting>,%bb21,%bb19,%bb18,%bb12.bb18_crit_edge,%bb16,%bb16.lr.ph,%bb20,%bb22,%bb22.lr.ph
+    Loop at depth 2 containing: %bb16<header><latch><exiting>
+    Loop at depth 2 containing: %bb22<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Bond_Energy':
+Loop at depth 1 containing: %bb<header>,%bb11<latch><exiting>,%bb10.bb11_crit_edge,%bb9,%bb1,%bb1.lr.ph,%bb2,%bb6,%bb4,%bb3,%bb8
+    Loop at depth 2 containing: %bb1<header>,%bb9<latch><exiting>,%bb2,%bb6,%bb4,%bb3,%bb8
+Printing analysis 'Natural Loop Information' for function 'vdW_Coulomb_Energy':
+Loop at depth 1 containing: %bb<header>,%bb24<latch><exiting>,%bb23.bb24_crit_edge,%bb22,%bb1,%bb1.lr.ph,%bb14,%bb12,%bb9,%bb7,%bb2,%bb8,%bb11,%bb15
+    Loop at depth 2 containing: %bb1<header>,%bb22<latch><exiting>,%bb14,%bb12,%bb9,%bb7,%bb2,%bb8,%bb11,%bb15
+Printing analysis 'Natural Loop Information' for function 'LR_vdW_Coulomb':
+Printing analysis 'Natural Loop Information' for function 'Tabulated_vdW_Coulomb_Energy':
+Loop at depth 1 containing: %bb4<header>,%bb25<latch><exiting>,%bb24.bb25_crit_edge,%bb23,%bb5,%bb5.lr.ph,%bb15,%bb13,%bb6.bb13_crit_edge,%bb6,%bb12,%bb16
+    Loop at depth 2 containing: %bb5<header>,%bb23<latch><exiting>,%bb15,%bb13,%bb6.bb13_crit_edge,%bb6,%bb12,%bb16
+Printing analysis 'Natural Loop Information' for function 'Calculate_Theta':
+Printing analysis 'Natural Loop Information' for function 'Calculate_dCos_Theta':
+Printing analysis 'Natural Loop Information' for function 'Three_Body_Interactions':
+Loop at depth 1 containing: %bb<header>,%bb58<latch><exiting>,%bb15,%bb6,%bb4,%bb3,%bb1,%bb1.lr.ph,%bb5,%bb10,%bb8,%bb11,%bb13,%bb57.bb58_crit_edge,%bb56,%bb16,%bb16.lr.ph,%bb55.loopexit,%bb17,%bb23,%bb20,%bb19,%bb22,%bb18,%bb21,%bb55.bb56.loopexit_crit_edge,%bb55.backedge,%bb26,%bb26.lr.ph,%bb29,%bb30,%bb52,%bb31,%bb31.lr.ph,%bb40,%bb38,%bb36,%bb36.lr.ph,%bb33,%bb32,%bb34,%bb41
+    Loop at depth 2 containing: %bb1<header><latch><exiting>
+    Loop at depth 2 containing: %bb16<header>,%bb56<latch><exiting>,%bb55.loopexit,%bb17,%bb23,%bb20,%bb19,%bb22,%bb18,%bb21,%bb55.bb56.loopexit_crit_edge,%bb55.backedge,%bb26,%bb26.lr.ph,%bb29,%bb30,%bb52,%bb31,%bb31.lr.ph,%bb40,%bb38,%bb36,%bb36.lr.ph,%bb33,%bb32,%bb34,%bb41
+        Loop at depth 3 containing: %bb18<header>,%bb23<latch><exiting>,%bb20,%bb19,%bb22,%bb21
+            Loop at depth 4 containing: %bb22<header><exiting>,%bb21<latch>,%bb19<exiting>
+        Loop at depth 3 containing: %bb26<header>,%bb55.backedge<latch><exiting>,%bb29,%bb30,%bb52,%bb31,%bb31.lr.ph,%bb40,%bb38,%bb36,%bb36.lr.ph,%bb33,%bb32,%bb34,%bb41
+            Loop at depth 4 containing: %bb31<header>,%bb52<latch><exiting>,%bb40,%bb38,%bb36,%bb36.lr.ph,%bb33,%bb32,%bb34,%bb41
+                Loop at depth 5 containing: %bb36<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Hydrogen_Bonds':
+Loop at depth 1 containing: %bb<header>,%bb49<latch><exiting>,%bb48.loopexit,%bb1,%bb5,%bb2,%bb2.lr.ph,%bb3,%bb4,%bb48.bb49.loopexit_crit_edge,%bb47,%bb8,%bb47.bb8_crit_edge,%bb8.lr.ph,%bb45,%bb10,%bb10.lr.ph,%bb15,%bb11,%bb21
+    Loop at depth 2 containing: %bb2<header>,%bb5<latch><exiting>,%bb3,%bb4
+    Loop at depth 2 containing: %bb8<header>,%bb47.bb8_crit_edge<latch>,%bb47<exiting>,%bb45,%bb10,%bb10.lr.ph,%bb15,%bb11,%bb21
+        Loop at depth 3 containing: %bb10<header>,%bb45<latch><exiting>,%bb15,%bb11,%bb21
+Printing analysis 'Natural Loop Information' for function 'Calculate_Omega':
+Printing analysis 'Natural Loop Information' for function 'Four_Body_Interactions':
+Loop at depth 1 containing: %bb<header>,%bb89<latch><exiting>,%bb88.bb89_crit_edge,%bb87,%bb1,%bb1.lr.ph,%bb3,%bb4,%bb5,%bb85,%bb6,%bb6.lr.ph,%bb85.bb6_crit_edge,%bb14,%bb7,%bb10,%bb83,%bb15,%bb15.lr.ph,%bb83.bb15_crit_edge,%bb16,%bb17,%bb18,%bb35,%bb26,%bb19,%bb22,%bb40
+    Loop at depth 2 containing: %bb1<header>,%bb87<latch><exiting>,%bb3,%bb4,%bb5,%bb85,%bb6,%bb6.lr.ph,%bb85.bb6_crit_edge,%bb14,%bb7,%bb10,%bb83,%bb15,%bb15.lr.ph,%bb83.bb15_crit_edge,%bb16,%bb17,%bb18,%bb35,%bb26,%bb19,%bb22,%bb40
+        Loop at depth 3 containing: %bb6<header>,%bb85.bb6_crit_edge<latch>,%bb85<exiting>,%bb14,%bb7,%bb10,%bb83,%bb15,%bb15.lr.ph,%bb83.bb15_crit_edge,%bb16,%bb17,%bb18,%bb35,%bb26,%bb19,%bb22,%bb40
+            Loop at depth 4 containing: %bb15<header>,%bb83.bb15_crit_edge<latch>,%bb83<exiting>,%bb16,%bb17,%bb18,%bb35,%bb26,%bb19,%bb22,%bb40
+Printing analysis 'Natural Loop Information' for function 'Dummy_Interaction':
+Printing analysis 'Natural Loop Information' for function 'Init_Bonded_Force_Functions':
+Printing analysis 'Natural Loop Information' for function 'Compute_Bonded_Forces':
+Printing analysis 'Natural Loop Information' for function 'Compute_NonBonded_Forces':
+Printing analysis 'Natural Loop Information' for function 'Compute_Total_Force':
+Loop at depth 1 containing: %bb<header>,%bb8<latch><exiting>,%bb7.bb8_crit_edge,%bb6,%bb1,%bb1.lr.ph,%bb6.bb1_crit_edge,%bb4,%bb2,%bb5
+    Loop at depth 2 containing: %bb1<header>,%bb6.bb1_crit_edge<latch>,%bb6<exiting>,%bb4,%bb2,%bb5
+Printing analysis 'Natural Loop Information' for function 'Compute_AMD_Force':
+Loop at depth 1 containing: %bb8<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Find_Radicals':
+Loop at depth 1 containing: %bb<header>,%bb9<latch><exiting>,%bb1,%bb2,%bb4,%bb5,%bb8
+Printing analysis 'Natural Loop Information' for function 'Compute_Bond_Boost_Force':
+Loop at depth 1 containing: %bb<header>,%bb8<latch><exiting>,%bb6,%bb1,%bb1.lr.ph,%bb2,%bb5
+    Loop at depth 2 containing: %bb1<header>,%bb6<latch><exiting>,%bb2,%bb5
+Loop at depth 1 containing: %bb13<header>,%bb16<latch><exiting>,%bb14,%bb15
+Loop at depth 1 containing: %bb19<header>,%bb26<latch><exiting>,%bb20,%bb23,%bb21.bb23_crit_edge,%bb21,%bb22
+Printing analysis 'Natural Loop Information' for function 'Compute_Bond_Boost_Force_All':
+Loop at depth 1 containing: %bb<header>,%bb23<latch><exiting>,%bb7,%bb5,%bb1,%bb1.lr.ph,%bb2,%bb3,%bb4,%bb9,%bb20,%bb10,%bb18,%bb11,%bb11.lr.ph,%bb12,%bb15,%bb13.bb15_crit_edge,%bb13,%bb14
+    Loop at depth 2 containing: %bb1<header>,%bb5<latch><exiting>,%bb2,%bb3,%bb4
+    Loop at depth 2 containing: %bb11<header>,%bb18<latch><exiting>,%bb12,%bb15,%bb13.bb15_crit_edge,%bb13,%bb14
+Printing analysis 'Natural Loop Information' for function 'Compute_Bond_Boost_Force_All_Couple':
+Loop at depth 1 containing: %bb<header>,%bb8<latch><exiting>,%bb6,%bb1,%bb1.lr.ph,%bb2,%bb3,%bb4,%bb5
+    Loop at depth 2 containing: %bb1<header>,%bb6<latch><exiting>,%bb2,%bb3,%bb4,%bb5
+Loop at depth 1 containing: %bb14<header>,%bb26<latch><exiting>,%bb25.bb26_crit_edge,%bb24,%bb15,%bb15.lr.ph,%bb16,%bb20,%bb18,%bb19
+    Loop at depth 2 containing: %bb15<header>,%bb24<latch><exiting>,%bb16,%bb20,%bb18,%bb19
+Printing analysis 'Natural Loop Information' for function 'Validate_Lists':
+Loop at depth 1 containing: %bb7.outer<header>,%bb4<latch>,%bb3,%bb7<exiting>,%bb7.backedge
+    Loop at depth 2 containing: %bb7<header><exiting>,%bb7.backedge<latch>,%bb3,%bb4<exiting>
+Loop at depth 1 containing: %bb19.outer<header>,%bb16<latch>,%bb15,%bb19<exiting>,%bb19.backedge
+    Loop at depth 2 containing: %bb19<header><exiting>,%bb19.backedge<latch>,%bb15,%bb16<exiting>
+Printing analysis 'Natural Loop Information' for function 'Init_Forces':
+Loop at depth 1 containing: %bb<header>,%bb44<latch><exiting>,%bb42,%bb3.bb42_crit_edge,%bb3,%bb1,%bb2,%bb40,%bb5,%bb4,%bb4.lr.ph,%bb9,%bb25,%bb12,%bb10,%bb18,%bb21,%bb19,%bb22,%bb24,%bb38,%bb34,%bb30,%bb26,%bb27,%bb28,%bb31,%bb32,%bb35,%bb36,%bb39,%bb43
+    Loop at depth 2 containing: %bb4<header>,%bb40<latch><exiting>,%bb5,%bb9,%bb25,%bb12,%bb10,%bb18,%bb21,%bb19,%bb22,%bb24,%bb38,%bb34,%bb30,%bb26,%bb27,%bb28,%bb31,%bb32,%bb35,%bb36,%bb39
+Printing analysis 'Natural Loop Information' for function 'Init_Forces_Tab':
+Loop at depth 1 containing: %bb<header>,%bb46<latch><exiting>,%bb44,%bb3.bb44_crit_edge,%bb3,%bb1,%bb2,%bb42,%bb5,%bb4,%bb4.lr.ph,%bb9,%bb27,%bb12,%bb10,%bb20,%bb23,%bb21,%bb24,%bb26,%bb40,%bb36,%bb32,%bb28,%bb29,%bb30,%bb33,%bb34,%bb37,%bb38,%bb41,%bb45
+    Loop at depth 2 containing: %bb4<header>,%bb42<latch><exiting>,%bb5,%bb9,%bb27,%bb12,%bb10,%bb20,%bb23,%bb21,%bb24,%bb26,%bb40,%bb36,%bb32,%bb28,%bb29,%bb30,%bb33,%bb34,%bb37,%bb38,%bb41
+Printing analysis 'Natural Loop Information' for function 'Estimate_Storage_Sizes':
+Loop at depth 1 containing: %bb<header>,%bb29<latch><exiting>,%bb28.bb29_crit_edge,%bb27,%bb1,%bb1.lr.ph,%bb27.bb1_crit_edge,%bb12,%bb2,%bb5,%bb8,%bb6,%bb9,%bb11,%bb25,%bb21,%bb17,%bb13,%bb14,%bb15,%bb18,%bb19,%bb22,%bb23,%bb26
+    Loop at depth 2 containing: %bb1<header>,%bb27.bb1_crit_edge<latch>,%bb27<exiting>,%bb12,%bb2,%bb5,%bb8,%bb6,%bb9,%bb11,%bb25,%bb21,%bb17,%bb13,%bb14,%bb15,%bb18,%bb19,%bb22,%bb23,%bb26
+Loop at depth 1 containing: %bb32<header>,%bb35<latch><exiting>,%bb33
+Printing analysis 'Natural Loop Information' for function 'Compute_Forces':
+Printing analysis 'Natural Loop Information' for function 'Velocity_Verlet_NVE':
+Loop at depth 1 containing: %bb<header><latch><exiting>
+Loop at depth 1 containing: %bb7<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Velocity_Verlet_Nose_Hoover_NVT_Klein':
+Loop at depth 1 containing: %bb<header><latch><exiting>
+Loop at depth 1 containing: %bb7<header><latch><exiting>
+Loop at depth 1 containing: %bb10<header>,%bb13<latch><exiting>,%bb12.bb13_crit_edge,%bb11,%bb11.lr.ph
+    Loop at depth 2 containing: %bb11<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Velocity_Verlet_Berendsen_Isotropic_NPT':
+Loop at depth 1 containing: %bb<header><latch><exiting>
+Loop at depth 1 containing: %bb7<header><latch><exiting>
+Loop at depth 1 containing: %bb.i10<header><latch><exiting>
+Loop at depth 1 containing: %bb20<header><latch><exiting>
+Loop at depth 1 containing: %bb.i<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Velocity_Verlet_Berendsen_SemiIsotropic_NPT':
+Loop at depth 1 containing: %bb<header><latch><exiting>
+Loop at depth 1 containing: %bb7<header><latch><exiting>
+Loop at depth 1 containing: %bb.i10<header><latch><exiting>
+Loop at depth 1 containing: %bb21<header><latch><exiting>
+Loop at depth 1 containing: %bb.i<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Generate_Initial_Velocities':
+Loop at depth 1 containing: %bb5<header><latch><exiting>
+Loop at depth 1 containing: %bb1<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Init_System':
+Loop at depth 1 containing: %bb.i<header><latch><exiting>
+Loop at depth 1 containing: %bb.i6<header><latch><exiting>
+Loop at depth 1 containing: %bb13<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Init_Simulation_Data':
+Loop at depth 1 containing: %bb.i<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Init_Workspace':
+Loop at depth 1 containing: %bb3<header><latch><exiting>
+Loop at depth 1 containing: %bb6<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Init_Lists':
+Loop at depth 1 containing: %bb3<header>,%bb6<latch><exiting>,%bb4,%bb5
+Printing analysis 'Natural Loop Information' for function 'Init_Out_Controls':
+Printing analysis 'Natural Loop Information' for function 'Initialize':
+Printing analysis 'Natural Loop Information' for function 'Bias_Foo':
+Printing analysis 'Natural Loop Information' for function 'Slow_Down_Atom':
+Printing analysis 'Natural Loop Information' for function 'Reactive_O_Atom':
+Loop at depth 1 containing: %bb<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Bias_COn_Combine':
+Loop at depth 1 containing: %bb6<header>,%bb15<latch><exiting>,%bb13,%bb7,%bb11,%bb8,%bb8.lr.ph,%bb9,%bb10,%bb14
+    Loop at depth 2 containing: %bb8<header>,%bb11<latch><exiting>,%bb9,%bb10
+Loop at depth 1 containing: %bb28.preheader<header>,%bb29<latch><exiting>,%bb27,%Reactive_O_Atom.exit,%bb19,%bb3.bb4_crit_edge.i,%bb.i10,%bb22,%bb26
+    Loop at depth 2 containing: %bb19<header>,%bb27<latch><exiting>,%Reactive_O_Atom.exit,%bb3.bb4_crit_edge.i,%bb.i10,%bb22,%bb26
+        Loop at depth 3 containing: %bb.i10<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Bias_COn_Decompose':
+Loop at depth 1 containing: %bb4<header>,%bb14<latch><exiting>,%bb12,%bb5,%bb10,%bb6,%bb6.lr.ph,%bb7,%bb8,%bb9,%bb13
+    Loop at depth 2 containing: %bb6<header>,%bb10<latch><exiting>,%bb7,%bb8,%bb9
+Loop at depth 1 containing: %bb20<header>,%bb29.bb20_crit_edge<latch>,%bb29<exiting>,%bb23,%bb24,%Slow_Down_Atom.exit,%Slow_Down_Atom.exit3,%bb28,%bb26,%bb25,%bb27,%bb.i1,%bb.i
+Printing analysis 'Natural Loop Information' for function 'Bias_LJ_126':
+Loop at depth 1 containing: %bb<header>,%bb12<latch><exiting>,%bb11.bb12_crit_edge,%bb10,%bb1,%bb1.lr.ph,%bb9,%bb2,%bb4
+    Loop at depth 2 containing: %bb1<header>,%bb10<latch><exiting>,%bb9,%bb2,%bb4
+Printing analysis 'Natural Loop Information' for function 'Bias_Charge':
+Loop at depth 1 containing: %bb<header>,%bb12<latch><exiting>,%bb11.bb12_crit_edge,%bb10,%bb1,%bb1.lr.ph,%bb9,%bb2,%bb4
+    Loop at depth 2 containing: %bb1<header>,%bb10<latch><exiting>,%bb9,%bb2,%bb4
+Printing analysis 'Natural Loop Information' for function 'Post_Evolve':
+Loop at depth 1 containing: %bb.i<header><latch><exiting>
+Loop at depth 1 containing: %bb4<header><latch><exiting>
+Printing analysis 'Natural Loop Information' for function 'Read_System':
+Printing analysis 'Natural Loop Information' for function 'main':
+Loop at depth 1 containing: %bb.i<header><latch><exiting>
+Loop at depth 1 containing: %bb<header>,%bb6<latch><exiting>,%bb2,%bb.i1,%bb2.i,%bb1.i,%bb3.i,%bb6.i,%bb7.i,%bb13.i,%bb12.i,%bb10.bb12_crit_edge.i,%bb10.i,%bb11.i,%bb14.i,%bb15.i,%bb3,%bb4,%bb5,%bb.i2,%bb2.i3
